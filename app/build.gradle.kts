@@ -60,6 +60,7 @@ dependencies {
 
     //Retrofit
     implementation(libs.retrofit)
+    implementation(libs.retrofit.serialization)
     //Kotlinx Serialization
     implementation(libs.serialization)
     //Navigation

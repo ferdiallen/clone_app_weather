@@ -12,6 +12,7 @@ navigation = "2.8.8"
 playServicesLocation = "21.3.0"
 retrofit = "2.9.0"
 kotlinx-serialization = "1.8.0"
+retrofit-kotlinx="2.11.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +33,7 @@ navigation = { group = "androidx.navigation", name = "navigation-compose", versi
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+retrofit-serialization = { group = "com.squareup.retrofit2", name = "converter-kotlinx-serialization", version.ref = "retrofit-kotlinx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
