@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">Clone Open Weather</string>
+    <string name="app_name">CODE.ID Weather</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_ask">Register ?</string>
+    <string name="login_success">Login Success</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="register_success">Register Success</string>
+    <string name="register_failed">Register Failed</string>
+    <string name="location_permission_is_not_granted">Location permission is not granted.</string>
+    <string name="humidity">Humidity</string>
+    <string name="temp">Temp</string>
+    <string name="wind">Wind</string>
+    <string name="unable_to_load_data">Unable to load data %1$s</string>
+    <string name="update_btn">Update</string>
+    <string name="update_successful_title">Update Successful</string>
+    <string name="update_failed_title">Update Failed</string>
+    <string name="email_empty_warning">Email should not be empty</string>
+    <string name="password_empty_warning">Password should not be empty</string>
+    <string name="email_password_empty_warning">Password and Email should not be empty</string>
+    <string name="password_min_length">Minimum length of password is 8</string>
 </resources>

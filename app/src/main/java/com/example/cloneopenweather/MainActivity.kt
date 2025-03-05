@@ -11,7 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.cloneopenweather.core.navigation.WeatherNavigation
 import com.example.cloneopenweather.presentation.home.HomeScreen
+import com.example.cloneopenweather.presentation.login.LoginScreen
 import com.example.cloneopenweather.ui.theme.CloneOpenWeatherTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CloneOpenWeatherTheme {
-                HomeScreen(modifier = Modifier.fillMaxSize())
+                WeatherNavigation(modifier = Modifier.fillMaxSize())
             }
         }
     }

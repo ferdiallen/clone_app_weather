@@ -25,7 +25,7 @@ fun WeatherModel.toWeatherDomainModel(): WeatherDomainModel {
         windSpeed = this.wind?.speed ?: 0.0,
         countryName = CountryName.getCountryName(this.sys?.country ?: ""),
         location = this.name ?: "",
-        description = this.weather?.firstOrNull()?.description ?: "",
+        description = this.weather?.firstOrNull()?.main ?: "",
         feelsLike = this.main?.feelsLike?.fastRoundToInt() ?: 0
     )
 }
